@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* header css */
+.header-container {
+    width: 100vw;
+    height: 12vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* to give the gap betweeen all header div*/
+
+}
+
+.dash-company-logo-box {
+    width: 19%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.dash-company-logo-box img {
+    width: 107px;
+    border: 1px solid #80808035;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.dash-company-logo-box span i {
+    font-size: 20px;
+    cursor: pointer;
+    color: #A5A5A5;
+}
+
+.search-box-container {
+    width: 45%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+.searchbar-box {
+    width: 50%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F6F9;
+    border-radius: 7px;
+    padding: 0px 15px;
+
+}
+
+.searchbar-box img {
+    width: 20px;
+    margin: 0px 3px;
+    cursor: pointer;
+}
+
+.searchbar-box input {
+    width: 90%;
+    height: 55%;
+    padding: 0px 5px 2px 5px;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #9b9b9b;
+}
+
+.searchbar-box input::placeholder {
+    color: #9b9b9b;
+}
+
+
+.profile-content-container {
+    width: 30%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.separator {
+    width: 1.5px;
+    height: 80%;
+    background-color: #F4F6F9;
+}
+
+
+.notification-unread-icon img {
+    padding-top: 7px;
+    width: 17px;
+    cursor: pointer;
+}
+
+
+.last-login-date-box p {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #575E6A;
+}
+
+.profile-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.profile-content img {
+    width: 19px;
+    background-color: gray;
+    padding: 10px 10px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.admin-name {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.admin-name h4 {
+    font-size: 1rem;
+}
+
+.admin-name p {
+    font-size: 0.75rem;
+    color: #A5A5A5;
+}
+
+/* side navbar css */
+.side-navbar-container li {
+    list-style: none;
+}
+
+.side-navbar-container {
+    width: 20%;
+    height: 88vh;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* border-right: 1px solid #F4F6F9; */
+    border-right: 1px solid #b8b8b8;
+    transition: width .3s ease-in-out;
+}
+
+/* .main {
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} */
+
+.side-navbar-container .side-nav-flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: gray; */
+
+}
+
+/* .main h1 {
+    width: 90%;
+    font-size: 1rem;
+    color: #A5A5A5;
+    background-color: yellow;
+} */
+
+.side-navbar-container h1 {
+    width: 90%;
+    font-size: 0.9rem;
+    color: #A5A5A5;
+    font-weight: 500;
+}
+
+/* .main ul {
+    width: 90%;
+    background-color: green;
+} */
+
+.side-navbar-container ul {
+    width: 90%;
+}
+
+/* .main ul li {
+    margin-top: 10px;
+    list-style: none;
+    background-color: white;
+    font-size: 1.2rem;
+} */
+
+.side-navbar-container ul li {
+    margin-top: 10px;
+    list-style: none;
+    background-color: white;
+    font-size: 1rem;
+    /* border-left: 4px solid red; */
+    padding: 1px 0px;
+}
+
+/* .main ul li a {
+    color: #575E6A;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+} */
+
+.side-navbar-container ul li a {
+    color: #575E6A;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+/* .main ul li a i {
+    font-size: 1.5rem;
+} */
+
+.side-navbar-container ul li a i {
+    font-size: 1.5rem;
+}
+
+.side-navbar-container ul li a span {
+    margin-left: 15px;
+}
+
+.navbar-separator {
+    width: 100%;
+    height: 2px;
+    background-color: #808080;
+    margin: 10px 0px;
+}
+
+/* .side-navbar-container ul li a span.active{
+    display: none;
+} */
