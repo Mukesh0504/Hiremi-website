@@ -7,6 +7,7 @@
 
 body {
     overflow-x: hidden;
+    height: 100vh;
 }
 
 /* header css */
@@ -18,7 +19,10 @@ body {
     align-items: center;
     gap: 20px;
     /* to give the gap betweeen all header div*/
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
 
 .dash-company-logo-box {
@@ -152,8 +156,16 @@ body {
     list-style: none;
 }
 
-.side-navbar-container {
+#Side-Navbar {
     width: 20%;
+    /* to fixed the position of navbar */
+    position: fixed;
+    top: 12vh;
+    left: 0;
+}
+
+.side-navbar-container {
+    width: 100%;
     height: 88vh;
     background-color: white;
     font-family: "Poppins", sans-serif;
@@ -190,7 +202,7 @@ body {
 
 .side-navbar-container h1 {
     width: 90%;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: #A5A5A5;
     font-weight: 500;
 }
@@ -239,7 +251,8 @@ body {
 } */
 
 .side-navbar-container ul li a i {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in;
 }
 
 .side-navbar-container ul li a span {
@@ -248,11 +261,221 @@ body {
 
 .navbar-separator {
     width: 100%;
-    height: 2px;
+    height: 1px;
     background-color: #808080;
     margin: 10px 0px;
 }
 
-/* .side-navbar-container ul li a span.active{
+.side-navbar-container ul li a i.active {
+    font-size: 2rem;
+}
+
+
+/* dashboard page section */
+
+#dash-board-body-wrap {
+    width: 100vw;
+    display: flex;
+    position: relative;
+    top: 12vh;
+}
+
+main {
+    width: 80%;
+    background-color: red;
+    /* to fix the main  */
+    position: fixed;
+    left: 20%;
+    /* top: 12vh; */
+}
+
+.dashboard-container {
+    width: 100%;
+    height: 88vh;
+    background-color: #F4F6F9;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-y: auto;
+}
+
+/* ======================================= */
+.dashboard-container::-webkit-scrollbar {
     display: none;
-} */
+}
+
+/* ============================================= */
+.dashbord-content {
+    width: 95%;
+    /* height: 600px; */
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    /* overflow-y: scroll; */
+}
+
+.application-dashboard {
+    margin-top: 30px;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.application-dashboard h1 {
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+.application-dashboard-box {
+    width: 95%;
+    /* background-color: aqua; */
+    margin: 0px 30px 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 30px;
+}
+
+.application-dashboard-box .box {
+    width: 250px;
+    height: 180px;
+    background-color: #F2F8FF;
+    border-radius: 15px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+.application-dashboard-box .box:nth-child(1) {
+    background-color: #F2F8FF #F5FBF8;
+}
+
+.application-dashboard-box .box:nth-child(1):hover {
+    outline: 1px solid #0870FF;
+}
+
+.application-dashboard-box .box:nth-child(2) {
+    background-color: #F5FBF8;
+}
+
+.application-dashboard-box .box:nth-child(2):hover {
+    outline: 1px solid #34AD78;
+}
+
+.application-dashboard-box .box:nth-child(3) {
+    background-color: #FDF3F5;
+}
+
+.application-dashboard-box .box:nth-child(3):hover {
+    outline: 1px solid #DC143C;
+}
+
+.box-img-container {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* dashboard -> business dashboard css */
+
+.business-dashboard {
+    margin-top: 30px;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.business-dashboard h1 {
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+.business-dashboard-img-container {
+    width: 70%;
+    color: #0870FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.business-dashboard .box {
+    height: 120px;
+}
+
+
+/* dashboard -> Hiremi-Ongoing-dashboard css */
+
+.hiremi-Ongoing-dashboard {
+    margin-top: 30px;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.hiremi-Ongoing-dashboard h1 {
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+.hiremi-dashboard-box {
+    width: 95%;
+    /* background-color: aqua; */
+    margin: 0px 30px 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.hiremi-dashboard-box .box {
+    width: 210px;
+    height: 160px;
+    background-color: #F2F8FF;
+    border-radius: 15px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+.hiremi-dashboard-box .box p:nth-child(4) {
+    color: #B0BBC6;
+}
+
+.hiremi-dashboard-box .box span {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hiremi-dashboard-box .box p {
+    margin-top: 5px;
+    font-size: 0.8rem;
+}

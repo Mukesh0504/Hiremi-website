@@ -7,6 +7,7 @@
     <title>Document</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../Assets/css/utility.css">
 </head>
 
 <body>
@@ -53,105 +54,312 @@
 
     </header>
 
-    <nav id="Side-Navbar">
-        <div class="side-navbar-container">
+    <article id="dash-board-body-wrap">
+        <nav id="Side-Navbar">
+            <div class="side-navbar-container">
 
-            <div class="main side-nav-flex">
-                <h1>MAIN</h1>
-                <ul>
-                    <li> <!-- border-left -->
-                        <a href="#">
-                            <i class='bx bx-grid-alt'></i>
-                            <span>Dashboard</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class='bx bxs-bar-chart-alt-2'></i>
-                            <span>Analytics</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class='bx bx-download'></i>
-                            <span>App Download Status</span>
-                        </a>
-                    </li>
-                </ul>
+                <div class="main side-nav-flex">
+                    <h1>MAIN</h1>
+                    <ul>
+                        <li> <!-- border-left -->
+                            <a href="#">
+                                <i class='bx bx-grid-alt'></i>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class='bx bxs-bar-chart-alt-2'></i>
+                                <span>Analytics</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class='bx bx-download'></i>
+                                <span>App Download Status</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="navbar-separator"></div><!-- navbar-separator -->
+
+                <div class="Hiremi-program side-nav-flex">
+                    <h1>HIREMI'S PROGRAMS</h1>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class='bx bx-support'></i>
+                                <span>Mentorship</span>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class='bx bxs-spa'></i>
+                                <span>Internship</span>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class='bx bxs-briefcase-alt-2'></i>
+                                <span>Fresher Job</span>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class='bx bxs-graduation'></i>
+                                <span>Experienced Job</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class='bx bx-bar-chart-alt'></i>
+                                <span>Corporate Training </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class='bx bx-wifi'></i>
+                                <span>Training</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="navbar-separator"></div><!-- navbar-separator -->
+
+                <div class="admin-setting side-nav-flex">
+                    <h1>MORE & ADMIN SETTING</h1>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class='bx bx-file'></i>
+                                <span>Project Report</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class='bx bx-cog'></i>
+                                <span>Project Report</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
-
-            <div class="navbar-separator"></div><!-- navbar-separator -->
-
-            <div class="Hiremi-program side-nav-flex">
-                <h1>HIREMI'S PROGRAMS</h1>
-                <ul>
-                    <li>
-                        <a href="">
-                            <i class='bx bx-support'></i>
-                            <span>Mentorship</span>
-                        </a>
-
-                    </li>
-                    <li>
-                        <a href="">
-                            <i class='bx bxs-spa'></i>
-                            <span>Internship</span>
-                        </a>
-
-                    </li>
-                    <li>
-                        <a href="">
-                            <i class='bx bxs-briefcase-alt-2'></i>
-                            <span>Fresher Job</span>
-                        </a>
-
-                    </li>
-                    <li>
-                        <a href="">
-                            <i class='bx bxs-graduation'></i>
-                            <span>Experienced Job</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <i class='bx bx-bar-chart-alt'></i>
-                            <span>Corporate Training </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <i class='bx bx-wifi'></i>
-                            <span>Training</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="navbar-separator"></div><!-- navbar-separator -->
-
-            <div class="admin-setting side-nav-flex">
-                <h1>MORE & ADMIN SETTING</h1>
-                <ul>
-                    <li>
-                        <a href="">
-                            <i class='bx bx-file'></i>
-                            <span >Project Report</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="">
-                            <i class='bx bx-cog'></i>
-                            <span>Project Report</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-    </nav>
+        </nav>
 
 
+        <!--  DASHBOARD PAGE -->
+
+        <main>
+            <section id="Dashboard-page">
+
+                <div class="dashboard-container"><!-- scroll -->
+                    <div class="dashbord-content"><!-- content container -->
+
+                        <div class="application-dashboard">
+                            <h1>Application Dashboard</h1>
+                            <div class="application-dashboard-box">
+
+                                <div class="box">
+                                    <div class="box-img-container">
+                                        <img src="../Assets/images/registration.png" class="dashboard-icon-img"
+                                            alt=""><!-- icon image -->
+
+                                        <span>
+                                            <p class="green-btn">Goal Completed: 30% <img
+                                                    src="../Assets/images/arrow_warm_up.png" alt=""></p>
+                                            <p class="red-btn">Goal Remaining: 70% <img
+                                                    src="../Assets/images/crisis_alert.png" alt=""></p>
+                                        </span>
+
+                                    </div>
+
+                                    <p id="content-text" style="color:#0870FF;">Total Registration</p>
+                                    <p id="content-amount">30000<span>/100000</span></p>
+                                    <span id="new-register-txt">
+                                        <p>This Month: </p>
+                                        <p>+3000</p>
+                                        <p>New Registration</p>
+                                    </span>
+                                </div>
+
+                                <div class="box">
+                                    <div class="box-img-container">
+                                        <img src="../Assets/images/verified.png" class="dashboard-icon-img"
+                                            alt=""><!-- icon image -->
+
+                                        <span>
+                                            <p class="green-btn">Goal Completed: 30% <img
+                                                    src="../Assets/images/arrow_warm_up.png" alt=""></p>
+                                            <p class="red-btn">Goal Remaining: 70% <img
+                                                    src="../Assets/images/crisis_alert.png" alt=""></p>
+                                        </span>
+
+                                    </div>
+
+                                    <p id="content-text" style="color: #34AD78;">Verified Users</p>
+                                    <p id="content-amount">10000<span>/100000</span></p>
+                                    <span id="new-register-txt">
+                                        <p>This Month: </p>
+                                        <p>+750</p>
+                                        <p>verified User</p>
+                                    </span>
+                                </div>
+
+                                <div class="box">
+                                    <div class="box-img-container">
+                                        <img src="../Assets/images/error.png" class="dashboard-icon-img"
+                                            alt=""><!-- icon image -->
+
+                                        <span>
+                                            <p class="green-btn">Goal Completed: 30% <img
+                                                    src="../Assets/images/arrow_warm_up.png" alt=""></p>
+                                            <p class="red-btn">Goal Remaining: 70% <img
+                                                    src="../Assets/images/crisis_alert.png" alt=""></p>
+                                        </span>
+
+                                    </div>
+
+                                    <p id="content-text" style="color: #DC143C;">Not Verified Users</p>
+                                    <p id="content-amount">20000<span>/100000</span></p>
+                                    <span id="new-register-txt">
+                                        <p>This Month: </p>
+                                        <p>+2250</p>
+                                        <p>Not Verified User</p>
+                                    </span>
+                                </div>
+
+                                <!-- add content box -->
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="business-dashboard">
+                            <h1>Business Dashboard</h1>
+                            <div class="application-dashboard-box">
+
+                                <div class="box">
+
+                                    <div class="business-dashboard-img-container">
+                                        <img src="../Assets/images/tie-up.png" class="dashboard-icon-img" alt="">
+                                        <p style="color: #0870FF;">Total Tie Up(s)</p>
+                                    </div>
+
+                                    <p id="content-amount">012</p>
+
+                                </div>
+
+                                <div class="box">
+
+                                    <div class="business-dashboard-img-container">
+                                        <img src="../Assets/images/staff.png" class="dashboard-icon-img" alt="">
+                                        <p style="color: #34AD78;">Total Staff</p>
+                                    </div>
+
+                                    <p id="content-amount">032</p>
+
+                                </div>
+
+                                <div class="box">
+
+                                    <div class="business-dashboard-img-container">
+                                        <img src="../Assets/images/total-hr.png" class="dashboard-icon-img" alt="">
+                                        <p style="color: #DC143C;">Total HR(s)</p>
+                                    </div>
+
+                                    <p id="content-amount">021</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="hiremi-Ongoing-dashboard">
+                            <h1>Hiremi’s Ongoing Programs Summary</h1>
+                            <div class="hiremi-dashboard-box">
+
+                                <div class="box">
+                                    <img src="/Assets/images/01_Internship Active Users.png" alt=""
+                                        class="dashboard-icon-img">
+                                    <p style="color: #FF7402;">Internship: Active Users</p>
+                                    <span id="content-amount">012 <p class="green-btn">+2.02% ▴</p></span>
+                                    <p>This Month: +10 Active Users</p>
+                                </div>
+
+                                <div class="box">
+                                    <img src="/Assets/images/02_Mentorship Active Users.png" alt=""
+                                        class="dashboard-icon-img">
+                                    <p style="color: #2E3DEB;">Mentorship: Active Users</p>
+                                    <span id="content-amount">012</span>
+                                    <p>This Month: +02 Active Users</p>
+                                </div>
+
+                                <div class="box">
+                                    <img src="/Assets/images/03_Experienced Job Active Users.png" alt=""
+                                        class="dashboard-icon-img">
+                                    <p style="color: #CB46BC;">Experienced Job: Active Users</p>
+                                    <span id="content-amount">012</span>
+                                    <p>This Month: +02 Active Users</p>
+                                </div>
+
+
+
+                                <div class="box">
+                                    <img src="/Assets/images/06_Training Active Users.png" alt=""
+                                        class="dashboard-icon-img">
+                                    <p style="color: #0870FF;">Training: Active Users</p>
+                                    <span id="content-amount">012</span>
+                                    <p>This Month: +07 Active Users</p>
+                                </div>
+
+                                <div class="box">
+                                    <img src="/Assets/images/04_Corporate Training Active Users.png" alt=""
+                                        class="dashboard-icon-img">
+                                    <p style="color: #09C0B5;">Corporate Training: Active Users</p>
+                                    <span id="content-amount">07</span>
+                                    <p>This Month: +03 Active Users</p>
+                                </div>
+
+                                <div class="box">
+                                    <img src="/Assets/images/05_Fresher Job Active Users.png" alt=""
+                                        class="dashboard-icon-img">
+                                    <p style="color: #FC423B;">Fresher Job: Active Users</p>
+                                    <span id="content-amount">012 <p class="red-btn">-1.02% ▾</p></span>
+                                    <p>This Month: +05 Active Users</p>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+                </div>
+                </div>
+
+            </section>
+
+            <!-- other section are added here -->
+
+        </main>
+
+    </article>
 
     <script src="script.js"></script>
 </body>
