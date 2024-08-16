@@ -58,7 +58,7 @@
         <nav id="Side-Navbar">
             <div class="side-navbar-container">
 
-                <div class="main side-nav-flex">
+                <div class="side-nav-flex">
                     <h1>MAIN</h1>
                     <ul>
                         <li> <!-- border-left -->
@@ -159,7 +159,8 @@
             <section id="dashboard-page" style="background-color:yellow;">
 
                 <div class="dashboard-container"><!-- scroll -->
-                    <div class="dashbord-content"><!-- content container -->
+
+                    <div class="dashbord-content" style="display: none;"><!-- content container -->
 
                         <div class="application-dashboard">
                             <h1>Application Dashboard</h1>
@@ -448,6 +449,334 @@
 
                     </div>
 
+
+                    <div class="app-download-status-content">
+
+                        <div class="download-status-container">
+                            <div class="download-status-heading">
+                                <h1>State Rankings: Downloads, Verified and Not Verified Users</h1>
+                                <button id="download-app-btn">
+                                    <img src="/Assets/images/download-app-btn.png" alt="">
+                                    <p>Download App</p>
+                                </button>
+                            </div>
+
+                            <span>
+                                <p>Table Representation</p>
+                            </span>
+
+                            <div class="download-status-buttons">
+
+                                <button id="verified-user-btn">
+                                    <img src="/Assets/images/verified.png" alt="verified-img">
+                                    <p>Verified Users</p>
+                                </button>
+
+                                <button id="non-verified-user-btn">
+                                    <img src="/Assets/images/error.png" alt="non-verified-img">
+                                    <p>Not Verified Users</p>
+                                </button>
+
+                                <button id="app-download-status-btn">
+                                    <img src="/Assets/images/app-download-moble-img.png" alt="">
+                                    <p>App Downloads</p>
+                                </button>
+
+                                <button id="sort-btn">
+                                    <img src="/Assets/images/swap_vert.png" alt="">
+                                    <p>Sort</p>
+                                </button>
+
+                            </div>
+
+                            <div class="download-status-list-container">
+                                <div class="download-status-list-heading">
+                                    <p>S.No</p>
+                                    <p>States Names</p>
+                                    <p>App downloads</p>
+                                    <p style="color: #34AD78;">Verified Users</p>
+                                    <p style="color: #C1272D;">Not Verified Users</p>
+                                </div>
+                                <div class="download-status-list">
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">2</li>
+                                            <li id="states-name">Arunachal Pradesh</li>
+                                            <li id="app-download">523</li>
+                                            <li id="verified-user">107</li>
+                                            <li id="not-verified-user">590</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">3</li>
+                                            <li id="states-name">Assam</li>
+                                            <li id="app-download">125</li>
+                                            <li id="verified-user">425</li>
+                                            <li id="not-verified-user">55</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">4</li>
+                                            <li id="states-name">Bihar</li>
+                                            <li id="app-download">394</li>
+                                            <li id="verified-user">36</li>
+                                            <li id="not-verified-user">707</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+                                    <div class="states-list-item">
+                                        <ul>
+                                            <li id="s.no">1</li>
+                                            <li id="states-name">Andhra Pradesh</li>
+                                            <li id="app-download">409</li>
+                                            <li id="verified-user">133</li>
+                                            <li id="not-verified-user">396</li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- add more states data -->
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="goto-top-btn">
+                            <a href="#dashboard-page" onclick="scrollTotop()">
+                                <img src="/Assets/images/goto-top-btn.png" alt="">
+                                <p>Go to Top</p>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <!-- add other section -->
 
                 </div>
                 </div>

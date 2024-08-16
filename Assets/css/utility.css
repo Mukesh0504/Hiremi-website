@@ -1,6 +1,6 @@
 /* services box css */
 .dashboard-icon-img {
-    width: 48px;
+    width: 20%;
 }
 
 .green-btn {
@@ -130,4 +130,59 @@
 .query-summary .box:nth-child(2) {
     background-color: white;
     border: 1px solid #34AD78;
+}
+
+
+/* app download status section section */
+#verified-user-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #34AD78;
+    color: white;
+
+}
+
+#verified-user-btn img {
+    width: 30px;
+}
+
+#non-verified-user-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    background-color: #d52e34;
+    color: white;
+}
+
+#non-verified-user-btn img {
+    width: 30px;
+}
+
+#app-download-status-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid black;
+    padding: 5px 25px;
+}
+
+#app-download-status-btn img {
+    width: 16px;
+}
+
+#sort-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid black;
+    padding: 5px 25px;
+}
+
+#sort-btn img {
+    width: 18px;
 }
