@@ -162,6 +162,7 @@ body {
     position: fixed;
     top: 12vh;
     left: 0;
+    /* above is complementry */
 }
 
 .side-navbar-container {
@@ -281,6 +282,7 @@ body {
 }
 
 main {
+    /* this will always be exits */
     width: 80%;
     background-color: red;
     /* to fix the main  */
@@ -311,12 +313,12 @@ main {
 .dashbord-content {
     width: 95%;
     /* height: 600px; */
-    background-color: green;
+    /* background-color: green; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 5px;
+    gap: 30px;
     /* overflow-y: scroll; */
 }
 
@@ -394,7 +396,6 @@ main {
 /* dashboard -> business dashboard css */
 
 .business-dashboard {
-    margin-top: 30px;
     width: 100%;
     background-color: white;
     border-radius: 15px;
@@ -425,7 +426,6 @@ main {
 /* dashboard -> Hiremi-Ongoing-dashboard css */
 
 .hiremi-Ongoing-dashboard {
-    margin-top: 30px;
     width: 100%;
     background-color: white;
     border-radius: 15px;
@@ -484,7 +484,6 @@ main {
 /* dashboard -> last query-summary section css */
 
 .query-summary-dashboard {
-    margin-top: 30px;
     width: 100%;
     background-color: #F4F6F9;
     border-radius: 15px;
@@ -645,3 +644,70 @@ main {
     border: 1px solid black;
 }
 
+
+
+
+/*  */
+
+.active-user-dashboard {
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+}
+
+.active-user-graph-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.active-user-graph-img img {
+    width: 95%;
+}
+
+.active-user-dashboard h1 {
+    padding: 10px 30px;
+
+}
+
+.active-user-dashboard p {
+    padding: 10px 30px;
+}
+
+/*  */
+.goto-top-btn {
+    width: 100%;
+    background-color: #F4F6F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.goto-top-btn a img {
+    width: 20px;
+}
+
+.goto-top-btn a {
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}

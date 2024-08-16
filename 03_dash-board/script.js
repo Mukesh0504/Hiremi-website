@@ -50,3 +50,12 @@ doctToRight.addEventListener("click", () => {
 })
 
 
+// to go-to top of the dashboard
+function scrollTotop(){
+    // console.log("clicked");
+    document.querySelector(".dashboard-container").scrollTo({
+        top:0,
+        behavior:"smooth"
+    });
+}
+
