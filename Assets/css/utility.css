@@ -186,3 +186,218 @@
 #sort-btn img {
     width: 18px;
 }
+
+/* ==================================== */
+
+/* total user - list item btn */
+#select-user {
+    border: 1px solid #34AD78;
+    font-size: 0.9rem;
+    padding: 4px 10px;
+    border-radius: 30px;
+    background-color: #34ad7917;
+    color: #34AD78;
+    cursor: pointer;
+}
+
+
+#pending-btn {
+    /* utitlity btn */
+    border: 1px solid #FF7402;
+    font-size: 0.9rem;
+    padding: 4px 10px;
+    border-radius: 30px;
+    background-color: #ff740214;
+    color: #FF7402;
+    cursor: pointer;
+}
+
+#rejected-btn {
+    /* utitlity btn */
+    border: 1px solid red;
+    font-size: 0.9rem;
+    padding: 4px 10px;
+    border-radius: 30px;
+    background-color: #c1272c10;
+    color: red;
+    cursor: pointer;
+}
+
+#view-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    border: 1px solid #C1272D;
+    background-color: #c1272c;
+    font-size: 0.9rem;
+    padding: 4px 20px;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* ==================================== */
+
+
+
+#view-user i {
+    font-size: 13px;
+}
+
+#Search-btn {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    padding: 7px 17px;
+    background-color: #C1272D;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#Search-btn i {
+    font-size: 25px;
+}
+
+
+
+/* mentorship css */
+
+.color {
+    color: #2E3DEB;
+    color: #098CE3;
+    color: #34AD78;
+    color: #DC143C;
+    color: #09C0B5;
+    color: #CB46BC;
+}
+
+.mentorship-summary-box .box p:nth-child(3) {
+    font-size: 0.75rem;
+}
+
+
+
+
+.mentorship-summary-box .box:nth-child(1) span p {
+    font-size: 0.8rem;
+    color: #2E3DEB;
+}
+
+.mentorship-summary-box .box:nth-child(1) span {
+    color: #2E3DEB;
+}
+
+.mentorship-summary-box .box:nth-child(1) {
+    background-color: #2e3eeb1c;
+}
+
+.mentorship-summary-box .box:nth-child(1):hover {
+    outline: 1px solid #2E3DEB;
+}
+
+
+
+
+.mentorship-summary-box .box:nth-child(2) span p {
+    font-size: 0.8rem;
+    color: #098CE3;
+}
+
+.mentorship-summary-box .box:nth-child(2) span {
+    color: #098CE3;
+}
+
+.mentorship-summary-box .box:nth-child(2) {
+    background-color: #098ce317;
+}
+
+.mentorship-summary-box .box:nth-child(2):hover {
+    outline: 1px solid #098CE3;
+}
+
+
+
+
+.mentorship-summary-box .box:nth-child(3) span p {
+    font-size: 0.8rem;
+    color: #34AD78;
+}
+
+.mentorship-summary-box .box:nth-child(3) span {
+    color: #34AD78;
+}
+
+.mentorship-summary-box .box:nth-child(3) {
+    background-color: #34ad791b;
+}
+
+.mentorship-summary-box .box:nth-child(3):hover {
+    outline: 1px solid #34AD78;
+}
+
+
+
+
+.mentorship-summary-box .box:nth-child(4) span p {
+    font-size: 0.8rem;
+    color: #DC143C;
+}
+
+.mentorship-summary-box .box:nth-child(4) span {
+    color: #DC143C;
+}
+
+.mentorship-summary-box .box:nth-child(4) {
+    background-color: #dc143c1b;
+}
+
+.mentorship-summary-box .box:nth-child(4):hover {
+    outline: 1px solid #DC143C;
+}
+
+
+
+/* mentorship -> mentorship status */
+
+.mentorship-status-box .box p:nth-child(3) {
+    font-size: 0.75rem;
+}
+
+.mentorship-status-box .box:nth-child(1) span p {
+    font-size: 0.8rem;
+    color: #09C0B5;
+}
+
+.mentorship-status-box .box:nth-child(1) span {
+    color: #09C0B5;
+}
+
+.mentorship-status-box .box:nth-child(1) {
+    background-color: #09c0b41b;
+}
+
+.mentorship-status-box .box:nth-child(1):hover {
+    outline: 1px solid #09C0B5;
+}
+
+
+
+.mentorship-status-box .box:nth-child(2) span p {
+    font-size: 0.8rem;
+    color: #CB46BC;
+}
+
+.mentorship-status-box .box:nth-child(2) span {
+    color: #CB46BC;
+}
+
+.mentorship-status-box .box:nth-child(2) {
+    background-color: #cb46bb1d;
+}
+
+.mentorship-status-box .box:nth-child(2):hover {
+    outline: 1px solid #CB46BC;
+}
