@@ -39,7 +39,7 @@
 
 
 #content-amount {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
 }
 
 #content-amount span {
@@ -400,4 +400,124 @@
 
 .mentorship-status-box .box:nth-child(2):hover {
     outline: 1px solid #CB46BC;
+}
+
+
+/* internship css */
+
+#increasing-btn {
+    font-size: 0.8rem;
+    border: 1px solid #34AD78;
+    border-radius: 30px;
+    color: #34AD78;
+    padding: 1px 4px;
+}
+
+/* internship --> internship summary */
+
+.internship-summary-box .box p:nth-child(3) {
+    margin: 5px 0px;
+    font-size: 0.8rem;
+    color: #B0BBC6;
+}
+
+.internship-summary-box .box p:nth-child(3) span {
+    color: #34AD78;
+}
+
+.internship-summary-box .box:nth-child(1) {
+    background-color: #ff740217;
+}
+
+.internship-summary-box .box:nth-child(1) span p {
+    font-size: 0.8rem;
+    color: #FF7402;
+}
+
+.internship-summary-box .box:nth-child(1):hover {
+    outline: 1px solid #FF7402;
+}
+
+
+.internship-summary-box .box:nth-child(2) {
+    background-color: #098ce31d;
+}
+
+.internship-summary-box .box:nth-child(2) span p {
+    font-size: 0.8rem;
+    color: #098CE3;
+}
+
+.internship-summary-box .box:nth-child(2):hover {
+    outline: 1px solid #098CE3;
+}
+
+
+.internship-summary-box .box:nth-child(3) {
+    background-color: #34ad7917;
+}
+
+.internship-summary-box .box:nth-child(3) span p {
+    font-size: 0.8rem;
+    color: #34AD78;
+}
+
+.internship-summary-box .box:nth-child(3):hover {
+    outline: 1px solid #34AD78;
+}
+
+
+.internship-summary-box .box:nth-child(4) {
+    background-color: #dc143c19;
+}
+
+.internship-summary-box .box:nth-child(4) span p {
+    font-size: 0.8rem;
+    color: #DC143C;
+}
+
+.internship-summary-box .box:nth-child(4):hover {
+    outline: 1px solid #DC143C;
+}
+
+
+
+/* internship -> internship status */
+.internship-status-box .box p:nth-child(3) {
+    margin: 5px 0px;
+    font-size: 0.8rem;
+    color: #B0BBC6;
+}
+
+.internship-status-box .box p:nth-child(3) span {
+    color: #34AD78;
+}
+
+
+.internship-status-box .box:nth-child(1) {
+    background-color: #09c0b41a;
+}
+
+.internship-status-box .box:nth-child(1):hover {
+    outline: 1px solid #09c0b4;
+
+}
+
+.internship-status-box .box:nth-child(2) {
+    background-color: #cb46bb1c;
+}
+
+.internship-status-box .box:nth-child(2):hover {
+    outline: 1px solid #cb46bb;
+}
+
+
+.internship-status-box .box:nth-child(1) span p {
+    font-size: 0.8rem;
+    color: #09C0B5;
+}
+
+.internship-status-box .box:nth-child(2) span p {
+    font-size: 0.8rem;
+    color: #CB46BC;
 }
