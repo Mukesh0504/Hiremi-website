@@ -521,3 +521,123 @@
     font-size: 0.8rem;
     color: #CB46BC;
 }
+
+
+/* fresher job -> css */
+.fresher-job-summary-box .box div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fresher-job-summary-box .box div:nth-child(2) p {
+    color: red;
+    border: 1px solid #C1272D;
+    background-color: #c1272c10;
+    font-size: 0.7rem;
+    border-radius: 30px;
+    padding: 1px 5px;
+}
+
+.fresher-job-summary-box .box p:nth-child(2) {
+    font-size: 0.85rem;
+}
+
+.fresher-job-summary-box .box p:nth-child(3) {
+    font-size: 0.8rem;
+    color: #B0BBC6;
+    margin: 5px 0px;
+}
+
+
+
+.fresher-job-summary-box .box p:nth-child(3) span {
+    color: #34AD78;
+}
+
+.abs {
+    color: #FC423B;
+    color: #098CE3;
+    color: #34AD78;
+    color: #DC143C;
+}
+
+.fresher-job-summary-box .box:nth-child(1) {
+    background-color: #fc413b15;
+}
+
+.fresher-job-summary-box .box:nth-child(1):hover {
+    outline: 1px solid #FC423B;
+}
+
+.fresher-job-summary-box .box:nth-child(2) {
+    background-color: #098ce314;
+}
+
+.fresher-job-summary-box .box:nth-child(2):hover {
+    outline: 1px solid #098CE3;
+}
+
+.fresher-job-summary-box .box:nth-child(3) {
+    background-color: #34ad7917;
+}
+
+.fresher-job-summary-box .box:nth-child(3):hover {
+    outline: 1px solid #34AD78;
+}
+
+.fresher-job-summary-box .box:nth-child(4) {
+    background-color: #dc143c15;
+}
+
+.fresher-job-summary-box .box:nth-child(4):hover {
+    outline: 1px solid #DC143C;
+}
+
+
+
+/* fresher -> fresher job status */
+.fresher-job-status-box .box div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fresher-job-status-box .box div:nth-child(2) p {
+    color: green;
+    border: 1px solid #34AD78;
+    background-color: #34ad7916;
+    font-size: 0.7rem;
+    border-radius: 30px;
+    padding: 1px 5px;
+}
+
+.fresher-job-status-box .box p:nth-child(2) {
+    font-size: 0.8rem;
+}
+
+.fresher-job-status-box .box p:nth-child(3) span {
+    color: #34AD78;
+}
+
+.fresher-job-status-box .box p:nth-child(3) {
+    font-size: 0.8rem;
+    color: #B0BBC6;
+    margin: 5px 0px;
+}
+
+.fresher-job-status-box .box:nth-child(1) {
+    background-color: #09c0b413;
+}
+
+.fresher-job-status-box .box:nth-child(1):hover {
+    outline: 1px solid #09C0B5;
+}
+
+.fresher-job-status-box .box:nth-child(2) {
+    background-color: #cb46bb17;
+}
+
+.fresher-job-status-box .box:nth-child(2):hover {
+    outline: 1px solid #cb46bb;
+}

@@ -117,7 +117,7 @@ body {
     cursor: pointer;
 }
 
-.active {
+.dot-container div.active {
     background-color: red;
 }
 
@@ -209,8 +209,17 @@ body {
 
 
 
+.otp-input-container {
+    margin: 40px 0px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+
 .enter-otp-text {
-    width: 95%;
+    width: 375px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -225,41 +234,33 @@ body {
     border-radius: 1px;
 }
 
-.otp-input-container {
-    margin: 40px 0px;
-    max-width: 90%;
-}
 
 .otp-input-box {
-    width: 100%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: left;
+    gap: 16px;
     margin: 0px 0px 10px 0px;
 }
 
-.otp-input-box span {
+.otp-input-box input {
     width: 50px;
     height: 50px;
-    background-color: #F5F5F5;
-    margin-right: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    cursor: pointer;
-
-}
-
-.otp-input-box span input {
-    width: 50%;
-    height: 80%;
-    padding-left: 5px;
+    padding-left: 17px;
     font-size: 1.8rem;
     background-color: transparent;
     outline: none;
     border: none;
+    border-radius: 5px;
     color: #34AD78;
+    cursor: pointer;
+    background-color: #F5F5F5;
+}
+
+.otp-input-box input::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+    display: none;
 }
 
 .resend-otp-box {
@@ -284,16 +285,33 @@ body {
     font-size: 1rem;
     padding: 14px 15px;
     font-weight: 600;
-    background-color: #C1272D;
+    background-color: #c1272cbd;
     color: white;
     border-radius: 7px;
     border: none;
     cursor: pointer;
+    pointer-events: none;
     transition: background 0.2s ease-in;
+}
+
+#verify-btn.active {
+    background-color: #c1272c;
+    pointer-events: all;
 }
 
 #verify-btn:hover {
     outline: 2px solid #C1272D;
     background-color: transparent;
     color: #C1272D;
+}
+
+
+@media screen and (max-width: 980px) {
+    .otp-page-img {
+        display: none;
+    }
+
+    .otp-form {
+        width: 100%;
+    }
 }
