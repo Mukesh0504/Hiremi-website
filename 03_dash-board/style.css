@@ -637,141 +637,235 @@ main {
 
 
 
+/* dashboard -> user's dashboard css */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .application-dashboard {
-    margin-top: 25px;
+.user-dashboard {
     width: 100%;
     background-color: white;
-    border-radius: 15px;
+    margin-top: 25px;
+    border-radius: 10px;
     display: flex;
-    justify-content: center;
-    align-items: baseline;
     flex-direction: column;
+    align-items: center;
 }
 
-.application-dashboard h1 {
-    font-weight: 500;
-    margin: 20px 0px;
-}
-
-.application-dashboard-box {
+.user-dashboard-heading {
     width: 95%;
-    margin: 0px 30px 30px 30px;
+    padding: 15px 0px 15px 0px;
+}
+
+.user-dashboard-heading h1 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+
+.user-dashboard-container {
+    width: 96%;
+    /* background-color: green; */
+    display: flex;
+    gap: 10px;
+}
+
+.gender-container {
+    width: 40%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 10px 0px 25px 0px;
+}
+
+.gender-container .female-user {
+    width: 190px;
+    height: 75px;
     display: flex;
     align-items: center;
-    justify-content: baseline;
-    flex-wrap: wrap;
-    gap: 30px;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-color: #F4F6F9;
+    border-radius: 5px;
+    border: 1px solid #DDDDDD;
 }
 
-.application-dashboard-box .box {
-    width: 250px;
-    height: 180px;
-    background-color: #F2F8FF;
-    border-radius: 15px;
+.female-user .female-count h1 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.female-user .female-count p {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* verified and not verified btn */
+.verified-non-verified-data {
     display: flex;
-    align-items: baseline;
-    justify-content: space-around;
     flex-direction: column;
-    padding: 20px 20px;
+    gap: 10px;
+}
+
+.verified-non-verified-data .verified-user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #34AD78;
+    gap: 10px;
+    padding: 0px 5px;
+    background-color: #34ad7927;
+    border-radius: 3px;
+    color: #34AD78;
+    cursor: pointer;
+
+}
+
+.verified-non-verified-data i {
+    font-size: 0.3rem;
+}
+
+.verified-non-verified-data .verified-user h1 {
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.verified-non-verified-data .verified-user p {
+    font-size: 0.6rem;
+}
+
+.verified-non-verified-data .not-verified-user {
+    display: flex;
+    align-items: center;
+    border: 1px solid #C1272D;
+    background-color: red;
+    gap: 5px;
+    padding: 0px 5px;
+    border-radius: 3px;
+    color: #C1272D;
+    background-color: #c1272c21;
     cursor: pointer;
 }
 
-.application-dashboard-box .box:nth-child(1) {
-    background-color: #F2F8FF #F5FBF8;
+.verified-non-verified-data .not-verified-user h1 {
+    font-size: 0.7rem;
+    font-weight: 500;
 }
 
-.application-dashboard-box .box:nth-child(1):hover {
-    outline: 1px solid #0870FF;
+.verified-non-verified-data .not-verified-user p {
+    font-size: 0.6rem;
+    font-weight: 500;
+
 }
 
-.application-dashboard-box .box:nth-child(2) {
-    background-color: #F5FBF8;
+
+.gender-container .male-user {
+    width: 190px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-color: #F4F6F9;
+    border-radius: 5px;
+    border: 1px solid #DDDDDD;
 }
 
-.application-dashboard-box .box:nth-child(2):hover {
-    outline: 1px solid #34AD78;
+.male-user h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
-.application-dashboard-box .box:nth-child(3) {
-    background-color: #FDF3F5;
+.male-user p {
+    font-size: 0.9rem;
+    font-weight: 500;
 }
 
-.application-dashboard-box .box:nth-child(3):hover {
-    outline: 1px solid #DC143C;
+/* user-dashboard -> other user data */
+
+
+.user-other-data-container {
+    width: 60%;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 10px 0px 25px 0px;
+
 }
+
+.user-other-data-container .user-data1,
+.user-data2,
+.user-data3 {
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    /* background-color: red; */
+}
+
+.user-other-data-container p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.user-other-data-container i {
+    font-size: 0.6rem;
+    color: #808080;
+}
+
+.user-data1 .interested-domain,
+.branch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #F4F6F9;
+    border: 1px solid #DDDDDD;
+    cursor: pointer;
+}
+
+
+
+.user-data2 .passing-year,
+.college-state {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #F4F6F9;
+    border: 1px solid #DDDDDD;
+    cursor: pointer;
+}
+
+
+
+.user-data3 .degree,
+.birth-place {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #F4F6F9;
+    border: 1px solid #DDDDDD;
+    cursor: pointer;
+}
+
+
+
 
 .box-img-container {
     width: 95%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-} */
-
-
-/* dashboard -> business dashboard css */
-
-/* .business-dashboard {
-    width: 100%;
-    background-color: white;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    flex-direction: column;
-    margin-top: 30px;
 }
 
-.business-dashboard h1 {
-    font-weight: 500;
-    margin: 20px 0px;
-}
-
-.business-dashboard-img-container {
-    width: 70%;
-    color: #0870FF;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.business-dashboard .box {
-    height: 120px;
-} */
 
 
 /* dashboard -> Hiremi-Ongoing-dashboard css */

@@ -53,42 +53,22 @@
     align-items: flex-end;
 }
 
-/* #new-register-txt p:nth-child(1) {
-    font-size: 1rem;
-    color: #B0BBC6;
-} */
-
-/* #new-register-txt p:nth-child(2) {
-    font-size: 1rem;
-    color: #34AD78;
-} */
-
-/* #new-register-txt p:nth-child(3) {
-    font-size: 0.7rem;
-    color: #34AD78;
-
-} */
-/* dashboard -> opportunities  css*/
+/* dashboard -> opportunities */
 
 .opportunities-cards .opportunities-card:nth-child(1) {
     border: 1px solid #FC3E41;
-    background: linear-gradient(#fc3e4138, #ff6f0131);
+    background: linear-gradient(#fc3e4127, #ff6f0125);
 }
 
 .opportunities-cards .opportunities-card:nth-child(2) {
     border: 1px solid #FF6E01;
-    background: linear-gradient(#ff6f0120, #febe0d43);
+    background: linear-gradient(#ff6f0118, #febe0d1c);
 }
 
 .opportunities-cards .opportunities-card:nth-child(3) {
     border: 1px solid #CB44BD;
-    background: linear-gradient(#cb44bd2b, #db6aa125);
+    background: linear-gradient(#cb44bd1c, #db6aa116);
 }
-
-
-
-
-
 
 
 /* dashboard -> hiremi ongoing dashbord css */
