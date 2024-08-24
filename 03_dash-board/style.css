@@ -43,11 +43,13 @@ body {
 }
 
 .dash-company-logo-box span i {
-    font-size: 20px;
+    font-size: 23px;
     cursor: pointer;
     color: #A5A5A5;
 }
-
+.dash-company-logo-box span i:active{
+    color: #c1272cd1;
+}
 .search-box-container {
     width: 45%;
     height: 8vh;
@@ -290,6 +292,12 @@ main {
 
     /* for dashboard */
     #box-separator {
+        display: none;
+    }
+    .last-login-date-box{
+        display: none;
+    }
+    .separator:nth-child(2){
         display: none;
     }
 }
