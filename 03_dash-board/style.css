@@ -47,9 +47,11 @@ body {
     cursor: pointer;
     color: #A5A5A5;
 }
-.dash-company-logo-box span i:active{
+
+.dash-company-logo-box span i:active {
     color: #c1272cd1;
 }
+
 .search-box-container {
     width: 45%;
     height: 8vh;
@@ -294,10 +296,12 @@ main {
     #box-separator {
         display: none;
     }
-    .last-login-date-box{
+
+    .last-login-date-box {
         display: none;
     }
-    .separator:nth-child(2){
+
+    .separator:nth-child(2) {
         display: none;
     }
 }
