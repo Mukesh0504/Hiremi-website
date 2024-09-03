@@ -68,6 +68,7 @@ function scrollTotop() {
 
 
 
+
 // to change the pages with navbar
 const pages = document.querySelectorAll("[data-page]")
 const navLink = document.querySelectorAll("[data-nav-link]")
@@ -129,4 +130,59 @@ boxLink.forEach((box) => {
         })
     })
 })
+
+
+
+
+// for four query table 
+let queryBtns = document.querySelectorAll("[query-btn]")
+// console.log(queryBtns);
+
+const queryHeading = document.querySelector(".query-list-heading h1")
+// console.log(queryHeading);
+let queryTables = document.querySelectorAll("[query-table]")
+// console.log(queryTables);
+
+
+queryBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+        queryTables.forEach((table) => {
+            if (btn.getAttribute("query-btn").toLocaleLowerCase() === table.getAttribute("query-table").toLocaleLowerCase()) {
+                table.style.display = "block";
+                queryHeading.innerHTML = btn.getAttribute("query-btn");
+                // remove active from btn
+                queryBtns.forEach((btn) => {
+                    btn.classList.remove("active");
+                })
+                btn.classList.add("active")
+            }
+            else {
+                table.style.display = "none"
+            }
+
+        })
+    })
+})
+
+// to short the discrption in query table
+
+const discrptions = document.querySelectorAll("#discript");
+// console.log(discrptions);
+
+function shortPara(para, numWords) {
+    let paraGraph = para.split(" ");
+    // console.log(paraGraph);
+    if (paraGraph.length > numWords) {
+        let shortPara = paraGraph.slice(0, numWords).join(" ") + "...";
+        return shortPara;
+    }
+}
+
+discrptions.forEach((discrpt) => {
+    let para = discrpt.innerHTML;
+    let result = shortPara(para, 3);
+    // console.log(result);
+    discrpt.innerHTML = result;
+})
+
 
